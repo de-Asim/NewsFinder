@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin-left: 20%;
+    margin-top: 10px;
+}
+.newscontainer{
+    width: 60%;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+}
+.myheading{
+    width: 100%;
+    font-weight: 500;
+    background-color: rgb(248,246,248);
+    padding: 10px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.mycontent{
+    width: 100%;
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+}
+.showcontent{
+    visibility: visible;
+    height: fit-content;
+    padding: 10px 10px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
