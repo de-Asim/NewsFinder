@@ -18,7 +18,7 @@ function collapseFun(index){
 
 
 const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://newsapi.org/v2/top-headlines?country=in&apiKey=869dbd2c6dc64e2bb5099c149101c257',true);
+xhr.open('GET', 'https://newsapi.org/v2/everything?q=tesla&from=2021-06-23&sortBy=publishedAt&apiKey=869dbd2c6dc64e2bb5099c149101c257',true);
 xhr.getResponseHeader('content-type','application/json');
 
 xhr.onload = function(){
